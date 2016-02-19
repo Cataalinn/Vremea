@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 public class CallWeatherNow {
 
     private static final String URL1 = "http://api.openweathermap.org/data/2.5/weather?q=";
-    private static final String URL2 = ",ro&units=metric&appid=c007306f537b5c5b9fb21f04d819e45e&lang=ro";
+    private static final String URL2 = ",ro&units=metric&appid=[your_api_key]&lang=ro";
 
     /**
      * Create new call to get weather json response from searched searchedPlace from OpenWeatherMap service
